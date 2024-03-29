@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+   
+}
+.container
+{
+    margin: 0 auto;
+    max-width: 900px;
+   
+}
+
+.apply{
+    margin:30px auto;
+    max-width: 600px;
+   background-color: aliceblue;
+   padding: 30px;
+   border-radius: 5px;
+   box-shadow: 1px 1px  5px black ;
+}
+
+.web{
+    font-size: 20px;
+}
+.form-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+    
+}
+label{
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+input, select, textarea{
+    padding: 13px;
+    border-radius: 5px; 
+    border: 1px solid darkgray;
+}
+#upload{
+    border: none;
+}
+.fcontrol
+{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    font-size: 15px;
+    background-color: rgb(221, 50, 50);
+    color: rgb(55, 62, 68);
+    border-radius: 5px; 
+    border: 1px solid black;
+   max-width: fit-content;
+   padding: 5px;
+   transition: 0.3s ease-in;
+    
+}
+button:hover{
+    box-shadow: 2px 2px  5px black ;
+    transition: 0.3s ease-out;
+    background-color: cadetblue;
+}
+
+.button
+{
+    display: flex;
+    justify-content: end;
+}
+.textcontrol
+{
+    grid-column: 1 /span 2;
+}
+
+@media(max-width:460px){
+    .textcontrol
+{
+    grid-column: 1 /span 1;
+}
+};

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply">
+           <h1>JOB APPLICATION <span class="web">(Web)</span></h1>
+           <div class="form">
+            <form action="">
+
+                <div class="form-container">
+
+                    <div class="fcontrol">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" placeholder="Enter">
+                    </div>
+
+                    <div class="fcontrol">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" placeholder="Enter">
+                    </div>
+                    
+                    <div class="fcontrol">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter">
+                    </div>
+
+                    <div class="fcontrol">
+                        <label for="job-role">Job Role</label>
+                        <select name="job-role" id="job-role">
+                            <option value="" style="display: none;">Select job role</option>
+                            <option value="frontend">Front-End Developer</option>
+                            <option value="frontend">Back-End Developer</option>
+                            <option value="frontend">Full-Stack Developer</option>
+                        </select>
+                    </div>
+
+                    <div class="fcontrol textcontrol">
+                        <label for="address">Address</label>
+                        
+                        <textarea name="address" id="address" cols="30" rows="5">Enter</textarea>
+                    </div>
+
+                    <div class="fcontrol">
+                        <label for="city">City</label>
+                        <input type="text" id="city" placeholder="Enter">
+                    </div>
+
+                    <div class="fcontrol">
+                        <label for="pin">Pincode</label>
+                        <input type="number" id="pin" placeholder="Enter">
+                    </div>
+
+                    <div class="fcontrol">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" >
+                    </div>
+
+                    <div class="fcontrol">
+                        <label for="upload">Upload CV</label>
+                        <input type="file" id="upload" placeholder="upload">
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+           </div>
+        </div>
+    </div>
+</body>
+
+</html>
